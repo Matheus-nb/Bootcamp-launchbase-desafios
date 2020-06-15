@@ -25,4 +25,4 @@
 
 ---
 
-Feito com  :heart:  by Matheus Lascalla :wave: 
+Feito com ♥ by Matheus Lascalla :wave: 

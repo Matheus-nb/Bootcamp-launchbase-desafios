@@ -10,10 +10,10 @@
 
 
 <p align="center">
-  <a href="#rocket-desafios">Desafios</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-desafios">Desafios</a>
 </p>
 
-## :rocket: Desafios
+##  :rocket:  Desafios
 
 - [Primeiros passos com JavaScript](Primeiros-passos-com-JS)
 - [Lidando com objetos e vetores](Lidando-com-objetos-e-vetores)
@@ -25,4 +25,4 @@
 
 ---
 
-Feito com :heart: by Matheus Lascalla :wave: 
+Feito com  :heart:  by Matheus Lascalla :wave: 

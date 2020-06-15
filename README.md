@@ -16,9 +16,9 @@
 ## :rocket: Desafios
 
 - [Primeiros passos com JavaScript](Primeiros-passos-com-JS)
-- [Lidando com objetos e vetores](desafios/01-2-lidando-com-objetos-e-vetores.md)
-- [Funções e estruturas de repetição](desafios/01-3-funcoes-e-estruturas-de-repeticao.md)
-- [Aplicação: Operações bancárias](desafios/01-4-aplicacao-operacoes-bancarias.md)
+- [Lidando com objetos e vetores](Lidando-com-objetos-e-vetores)
+- [Funções e estruturas de repetição](Funções-e-estruturas-de-repetição)
+- [Aplicação: Operações bancárias](Aplicação-Operações-bancárias)
 
 
 

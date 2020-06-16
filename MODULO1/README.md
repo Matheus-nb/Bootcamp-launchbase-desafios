@@ -10,19 +10,19 @@
 
 
 <p align="center">
-  <a href="#rocket-desafios">Desafios</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-desafios">Desafios</a>
 </p>
 
 ## :rocket: Desafios
 
-- [Primeiros passos com JavaScript](Primeiros passos com JS/Aposentadoria.js)
-- [Lidando com objetos e vetores](desafios/01-2-lidando-com-objetos-e-vetores.md)
-- [Funções e estruturas de repetição](desafios/01-3-funcoes-e-estruturas-de-repeticao.md)
-- [Aplicação: Operações bancárias](desafios/01-4-aplicacao-operacoes-bancarias.md)
+- [Primeiros passos com JavaScript](Primeiros-passos-com-JS)
+- [Lidando com objetos e vetores](Lidando-com-objetos-e-vetores)
+- [Funções e estruturas de repetição](Funçôes-e-estruturas-de-repetição)
+- [Aplicação: Operações bancárias](Aplicação-Operações-bancarias)
 
 
 
 
 ---
 
-Feito com :heart: by Matheus Lascalla :wave: 
+Feito com :heart: by [Matheus Lascalla](https://www.linkedin.com/in/matheus-nb/) :wave: 

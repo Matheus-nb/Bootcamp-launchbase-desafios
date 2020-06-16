@@ -10,6 +10,7 @@
 
 
 <p align="center">
+<<<<<<< HEAD
   <a href="#rocket-Challenges">Challenges</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="## :information_source-what is">what is</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="## 🛠 Technologies">Technologies</a>
@@ -21,6 +22,8 @@
 - [Lidando com objetos e vetores](desafios/01-2-lidando-com-objetos-e-vetores.md)
 - [Funções e estruturas de repetição](desafios/01-3-funcoes-e-estruturas-de-repeticao.md)
 - [Aplicação: Operações bancárias](desafios/01-4-aplicacao-operacoes-bancarias.md)
+=======
+
 
 ## :information_source-what is
 Launchbase é um bootcamp ministrado por Mayk Brito, que tem como intuito preparar os devs iniciantes para o mercado de trabalho com as mais novas stacks existentes e exigidas pelo mercado na area do desenvolvimento WEB.
@@ -37,4 +40,7 @@ Launchbase é um bootcamp ministrado por Mayk Brito, que tem como intuito prepar
 
 ---
 
+<<<<<<< HEAD
 Feito com :heart: by Matheus Lascalla entre em contato (https://www.linkedin.com/in/matheus-nb/) :wave: 
+=======
+

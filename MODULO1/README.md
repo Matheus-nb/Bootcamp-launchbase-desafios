@@ -17,8 +17,8 @@
 
 - [Primeiros passos com JavaScript](Primeiros-passos-com-JS)
 - [Lidando com objetos e vetores](Lidando-com-objetos-e-vetores)
-- [Funções e estruturas de repetição](Funçôes-e-estruturas-de-repetição)
-- [Aplicação: Operações bancárias](Aplicação-Operações-bancarias)
+- [Funções e estruturas de repetição](Funções-e-estruturas-de-repetição)
+- [Aplicação: Operações bancárias](Aplicação-Operações-bancárias)
 
 
 

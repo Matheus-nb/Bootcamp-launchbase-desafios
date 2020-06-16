@@ -16,10 +16,8 @@
 </p>
 
 ## :rocket: Challenges
-- [Primeiros passos com JavaScript](MODULO1/Primeiros-passos-com-JS)
-- [Lidando com objetos e vetores](MODULO1/Lidando-com-objetos-e-vetores)
-- [Funções e estruturas de repetição](MODULO1/Funções-e-estruturas-de-repetição)
-- [Aplicação: Operações bancárias](MODULO1/Aplicação-Operações-bancárias)
+- [Módulo 1](MODULO1)
+
 
 
 ## :information_source: what-is

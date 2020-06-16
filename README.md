@@ -27,7 +27,7 @@
 Launchbase é um bootcamp ministrado por Mayk Brito, que tem como intuito preparar os devs iniciantes para o mercado de trabalho com as mais novas stacks existentes e exigidas pelo mercado na area do desenvolvimento WEB.
 
 
-## 🛠-Technologies
+## Technologies
 - [HTML][HTML]
 - [CSS][CSS]
 - [Java-Script][Java-Script]

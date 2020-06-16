@@ -10,12 +10,12 @@
 
 
 <p align="center">
-  <a href="## :rocket:  Challenges">Challenges</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="## :rocket:Challenges">Challenges</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="## :information_source:what-is">what-is</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="## 🛠 Technologies">Technologies</a>
 </p>
 
-## :rocket:  Challenges
+## :rocket:Challenges
 
 - [Primeiros passos com JavaScript](MODULO1/Primeiros-passos-com-JS)
 - [Lidando com objetos e vetores](MODULO1/Lidando-com-objetos-e-vetores)

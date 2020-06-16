@@ -16,7 +16,6 @@
 </p>
 
 ## :rocket: Challenges
-
 - [Primeiros passos com JavaScript](MODULO1/Primeiros-passos-com-JS)
 - [Lidando com objetos e vetores](MODULO1/Lidando-com-objetos-e-vetores)
 - [Funções e estruturas de repetição](MODULO1/Funções-e-estruturas-de-repetição)
@@ -24,7 +23,7 @@
 
 
 ## :information_source: what-is
-Launchbase é um bootcamp ministrado por Mayk Brito, que tem como intuito preparar os devs iniciantes para o mercado de trabalho com as mais novas stacks existentes e exigidas pelo mercado na area do desenvolvimento WEB.
+Launchbase é um bootcamp ministrado por Mayk Brito, que tem como intuito preparar os devs iniciantes para o mercado de trabalho com as mais novas stacks existentes e exigidas pelo mercado na área do desenvolvimento WEB.
 
 
 ## Technologies

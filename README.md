@@ -15,7 +15,7 @@
   <a href="#🛠-Technologies">Technologies</a>
 </p>
 
-## :rocket:Challenges
+## :rocket: Challenges
 
 - [Primeiros passos com JavaScript](MODULO1/Primeiros-passos-com-JS)
 - [Lidando com objetos e vetores](MODULO1/Lidando-com-objetos-e-vetores)
@@ -23,7 +23,7 @@
 - [Aplicação: Operações bancárias](MODULO1/Aplicação-Operações-bancárias)
 
 
-## :information_source:what-is
+## :information_source: what-is
 Launchbase é um bootcamp ministrado por Mayk Brito, que tem como intuito preparar os devs iniciantes para o mercado de trabalho com as mais novas stacks existentes e exigidas pelo mercado na area do desenvolvimento WEB.
 
 

@@ -12,7 +12,7 @@
 <p align="center">
   <a href="#rocket-Challenges">Challenges</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#information_source-what-is">what is</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#🛠-Technologies">Technologies</a>
+  <a href="#Technologies">Technologies</a>
 </p>
 
 ## :rocket: Challenges

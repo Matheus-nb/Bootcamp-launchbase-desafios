@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+:root {
+    --color-rocket:#7159c1
+}
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+body {
+    color: white;
+    background-color:#282a36;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+body header {
+    padding:30px;
+    border-bottom: 1px solid #333;
+    background: rgba(0, 0, 0, 0.1)
+}
+
+body header div {
+    text-align:center; 
+}
+
+header div a {
+    color: white;
+
+    margin:0 30px;
+    font-size:18px;
+    line-height:28px;
+    text-decoration:none
+}
+
+header div a:hover{
+    color: #7159c1;
+    transition:360ms
+}
+
+.wrapper {
+    margin-top: 32px;
+    text-align: center;
+}
+
+.wrapper img {
+    border-radius: 50%;
+    height: 200px;
+
+    border: 6px solid #c4bae4;
+}
+
+.wrapper h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+.wrapper p {
+    margin-top: 32px;
+
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+    line-height: 28px;
+}
+
+.wrapper ul {
+    margin-top: 100px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 20px;
+
+    width: 250px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin-left: 18px;
+
+    border-bottom: 1px solid green;
+}
+
+.footer a:hover {
+    color: greenyellow;
+    transition: 450ms;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 36px 30px;
+    gap: 18px;
+    
+    
+}
+.card {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.1);
+
+    min-height: 79vh;
+
+    border-radius: 18px;
+}
+.card:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 500ms;
+
+    cursor: pointer;
+}
+
+.card__title h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;  
+
+    margin-top: 18px;
+}
+
+.card__content {
+  font-family: 'Roboto', sans-serif;
+}
+.card_info00{
+    position: absolute;
+    bottom: 8px;
+    left: 18px;
+
+    padding: 5px 20px;
+    border-radius: 20px;
+
+    text-align: center;
+
+    background-color: #7159c1;
+    filter: brightness(80%);
+}
+.card_info {
+    position: absolute;
+    bottom: 8px;
+    right: 18px;
+
+    padding: 5px 20px;
+    border-radius: 20px;
+
+    text-align: center;
+
+    background-color: var(--color-rocket);
+    filter: brightness(80%);
+}
+
+.modalOverlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal {
+    position: relative;
+    background-color: white;
+
+    width: 90%;
+    height: 90%;
+    margin: 5vh auto;
+}
+
+.modal .closeModal {
+    color: black;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    cursor: pointer;
+}
+
+.modal .maximizar {
+    color: black;
+    position: absolute;
+    right: 36px;
+    top: 8px;
+    cursor: pointer;
+}
+
+.modalOverlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+iframe {
+    width: 100%;
+    height: 90%;
+
+    top: 5%;
+
+    position: absolute;
+}
+
+.modal.maximizar {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+    height: 100%;
+}

@@ -14,7 +14,7 @@
 </p>
 
 ## :information_source: Descrição
-Esse desafio se consistiu em darmos nosso primeiro passo no front-end, tendo como intuito nos mostrar o poder do CSS e HTML.
+Esse desafio se consistiu em darmos nosso primeiro passo no front-end, tendo como intuito nos mostrar o poder do CSS e HTML juntamente do JavaScript
 
 
 

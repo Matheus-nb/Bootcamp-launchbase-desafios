@@ -161,59 +161,11 @@ header div a:hover{
     filter: brightness(80%);
 }
 
-.modalOverlay {
-    background-color: rgba(0, 0, 0, 0.7);
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    opacity: 0;
-    visibility: hidden;
-}
 
-.modal {
-    position: relative;
-    background-color: white;
-
-    width: 90%;
-    height: 90%;
-    margin: 5vh auto;
-}
-
-.modal .closeModal {
-    color: black;
-    position: absolute;
-    right: 8px;
-    top: 8px;
-    cursor: pointer;
-}
-
-.modal .maximizar {
-    color: black;
-    position: absolute;
-    right: 36px;
-    top: 8px;
-    cursor: pointer;
-}
-
-.modalOverlay.active {
-    opacity: 1;
-    visibility: visible;
-}
 
 iframe {
     width: 100%;
-    height: 90%;
-
-    top: 5%;
-
+    height: 100%;
     position: absolute;
 }
 
-.modal.maximizar {
-    position: relative;
-    margin-top: 0;
-    margin-bottom: 0;
-    width: 100%;
-    height: 100%;
-}

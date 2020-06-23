@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    <link rel="icon" href="/icons/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/styles/header.css">
+    
+
+    {% block head %}
+        <title>Clases</title>
+    {% endblock head %}
+</head>
+<body>
+    <header>
+        <div class="links">
+            <a href="/"><img src="/icons/logo.png" alt="Logo Clases"></a>
+            <div class="link">
+                <a href="/teachers">Teachers</a>
+                <a href="/students">Students</a>
+            </div>
+        </div>    
+    </header>
+
+    {% block content %}
+
+    {% endblock content %}
+</body>
+</html>

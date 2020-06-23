@@ -1,0 +1,26 @@
+body {
+    padding: 0px 200px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #3AAFA9;
+}
+
+.info {
+    display: flex;
+}
+
+.info img {
+    width:100vw;
+    height: 70vh;
+}
+
+.info p {
+    position: absolute;
+
+    color: #777;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 500;
+
+    left: 460px;
+    top: 240px;
+}

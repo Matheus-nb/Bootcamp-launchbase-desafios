@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Clases" src="MODULO4/public/icons/indexImg.svg" width="300px" />
+    <img alt="CLASES" src="public/icons/indexImg.svg" width="300px" />
 </h1>
 
 <h3 align="center">

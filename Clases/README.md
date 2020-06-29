@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-  Clases - desafio módulo 4
+  CLASES - desafio módulo 4
 </h3>
 
 <blockquote align="center">“Do your best, but always with delivery time!”</blockquote>
@@ -35,7 +35,7 @@ This project was developed to train my skills in front-end and back-end with the
 
 ## :information_source: How To Use
 
-To clone and run this application, you'll need [Git](https://gitforwindows.org/), [Node.js v12.18.0][nodejs] or higher installed on your computer and the [First Project](https://github.com/Matheus-nb/Foodfy). From your command line:
+To clone and run this application, you'll need [Git](https://gitforwindows.org/), [Node.js v12.18.0][nodejs] or higher installed on your computer and the [First Project](https://github.com/Matheus-nb/Bootcamp-launchbase-desafios/Clases). From your command line:
 
 ### Install Clases
 ```bash

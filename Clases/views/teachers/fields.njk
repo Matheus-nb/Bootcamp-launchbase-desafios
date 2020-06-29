@@ -1,0 +1,76 @@
+<div class="item">
+    <div>Avatar url</div>
+        <div>
+            <input
+            name="avatar_url"
+            type="url"
+            placeholder="https://"
+            value="{{teacher.avatar_url}}"
+            >
+        </div>
+    </div>
+
+    <div class="item">
+        <div>Nome</div>
+        <div>
+            <input
+            type="text"
+            name="name"
+            placeholder="Nome do professor"
+            value="{{teacher.name}}"
+            >
+        </div>
+    </div>
+
+    <div class="item">
+        <div>Data de nascimento</div>
+        <div>
+            <input
+            type="date"
+            name="birth"
+            value="{{teacher.age}}"
+            >
+        </div>
+    </div>
+
+    <div class="item">
+        <div>Grau de escolaridade</div>
+        <div><select name="escolaridade">
+                <option value="medio" {% if teacher.escolaridade == "medio" %}selected{% endif %}>Ensino Médio Completo</option>
+                <option value="superior" {% if teacher.escolaridade == "superior" %}selected{% endif %}>Ensino Superior Completo</option>
+                <option value="mestrado" {% if teacher.escolaridade == "mestrado" %}selected{% endif %}>Mestrado</option>
+                <option value="doutorado" {% if teacher.escolaridade == "doutorado" %}selected{% endif %}>Doutorado</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="item">
+        <div>Tipo de aula</div>
+        <div>
+            <span>
+                <input 
+            type="radio" 
+            name="tipo_aula" 
+            value="P" 
+            {% if teacher.tipo_aula == "P" %}
+                checked
+            {% endif %}>Presencial</span>
+            <span>
+                <input 
+            type="radio" 
+            name="tipo_aula" 
+            value="D"
+            {% if teacher.tipo_aula == "D" %}
+                checked
+            {% endif %}>Distância</span>
+        </div>
+    </div>
+
+    <div class="item">
+        <div>Matérias lecionadas</div>
+        <div>
+            <input type="text" name="materia" placeholder="Separe as máterias lecionadas por virgula" value="{{teacher.materia}}">
+        </div>
+    </div>
+
+    <button type="submit">Salvar</button>

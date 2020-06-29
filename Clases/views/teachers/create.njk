@@ -1,0 +1,21 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <title>Teachers - Create</title>
+    <link rel="stylesheet" href="/styles/teachers.css">
+{% endblock head %}
+
+{% block content %}
+    <form class ="card" method="POST" action="/teachers">
+        <section
+            class="avatar"
+            style="background: url(https://source.unsplash.com/collection/10553730/500x500) no-repeat center center/ cover"></section>
+        
+        <section class="details">
+            <h3>Create</h3>
+
+            {% include "teachers/fields.njk" %}
+
+        </section>
+    </form>
+{% endblock content %}

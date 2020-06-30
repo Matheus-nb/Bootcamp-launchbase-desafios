@@ -125,6 +125,7 @@ a.button {
     border-radius: 8px;
     font-size: 16px;
     font-weight:bold;
+    cursor: pointer;
 }
 
 a.button {
@@ -133,4 +134,85 @@ a.button {
 
     text-align: center;
     text-decoration: none;
+
+    
 }
+
+.delet {
+    background-color: rosybrown;
+    cursor: pointer;
+}
+
+/* INDEX TEACHERS */
+
+.table-container {
+    display: block;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.table-container table {
+   border-spacing: 0;
+}
+
+.table-container thead tr th {
+    text-align: left;
+}
+
+td, th {
+    padding: 16px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1) ;
+}
+
+tbody tr:last-child td {
+    border-bottom: none;
+}
+
+tbody tr td:first-child {
+    display: grid;
+    grid-template-columns: 64px 1fr;
+    align-items: center;
+}
+
+tbody tr td:first-child span {
+    padding: 0;
+    width: 48px;
+    height: 48px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 3px 4px 6px -4px black;
+    border: 1px solid white;
+}
+
+tbody tr td span {
+    padding: 8px 16px;
+    background-color: var(--background-color);
+
+    color: #555;
+    border-radius: 16px;
+
+    margin-right: 4px;
+    margin-top: 8px;
+    display: inline-block;
+}
+
+tbody tr td:last-child a {
+    background-color: var(--background-color);
+    padding: 8px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #555;
+    font-size: 14px;
+    border-radius: 16px;
+}
+
+.table-container thead tr th:last-child,
+td:last-child {
+    text-align: center;
+}
+
+thead tr th {
+    font-size: 18px;
+}
+

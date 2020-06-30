@@ -6,16 +6,29 @@
 {% endblock head %}
 
 {% block content %}
-    <form class ="card" method="POST" action="/teachers">
-        <section
-            class="avatar"
-            style="background: url(https://source.unsplash.com/collection/10553730/500x500) no-repeat center center/ cover"></section>
-        
-        <section class="details">
-            <h3>Edit</h3>
 
-            {% include "teachers/fields.njk" %}
+    <div class="card">
+         <section
+            class="avatar"
+            style="background: url({{teacher.avatar_url}}) no-repeat center center/ cover">
+        </section>
+
+        <section class="details">
+            <form method="POST" action="/teachers?_method=PUT">
+                <h3>Edit</h3>
+
+                {% include "teachers/fields.njk" %}
+
+                <input type="hidden" name="id" value="{{teacher.id}}">
+
+            </form>
+
+            <form action="/teachers?_method=DELETE" method="post">
+                <input type="hidden" name="id" value="{{teacher.id}}">
+                <button type="submit" class="delet">Delete</button>
+            </form>
 
         </section>
-    </form>
+    </div>
+    
 {% endblock content %}

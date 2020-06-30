@@ -6,45 +6,34 @@
 {% endblock head %}
 
 {% block content %}
-    <div class="card">
-        <section
-            class="avatar"
-            style="background: url(https://source.unsplash.com/collection/10553730/500x500) no-repeat center center/ cover"></section>
-        
-        <section class="details">
-            <h3>Detalhes</h3>
-            <div class="item">
-                <div>Nome</div>
-                <div>Matheus Anderson Lascalla Gomes</div>
-            </div>
+    <div class="card table-container">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Acompanhamento</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
 
-            <div class="item">
-                <div>Idade</div>
-                <div>20 anos</div>
-            </div>
+            <tbody>
+                {% for teacher in teachers %}
+                    <tr>
+                        
+                        <td>
+                            <span class="avatar_img_table" style="background-image:url({{teacher.avatar_url}})"></span>
+                            {{teacher.name}}
+                        </td>
+                        <td>{% for materia in teacher.materia.split(", ") %}
+                            <span>{{materia}}</span>
+                        {% endfor %}</td>
+                        <td><a href="/teachers/{{teacher.id}}">Ver</a></td>
+                    
+                    </tr>
+                {% endfor %}
+            </tbody>
 
-            <div class="item">
-                <div>Grau de escolaridade</div>
-                <div>Ensino superior</div>
-            </div>
-
-            <div class="item">
-                <div>Tipo de aula</div>
-                <div>Distância</div>
-            </div>
-
-            <div class="item">
-                <div>Acompanhamento</div>
-                <div>
-                    <span>Matemática</span>
-                    <span>Física</span>
-                </div>
-            </div>
-
-            <div class="item">
-                <div>Desde</div>
-                <div>04/11/2018</div>
-            </div>
-        </section>
+        </table>
+    
     </div>
 {% endblock content %}

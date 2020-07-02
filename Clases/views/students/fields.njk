@@ -1,0 +1,80 @@
+<div class="item">
+    <div>Avatar url</div>
+        <div>
+            <input
+            name="avatar_url"
+            type="url"
+            placeholder="https://"
+            value="{{student.avatar_url}}"
+            >
+        </div>
+    </div>
+
+    <div class="item">
+        <div>Nome</div>
+        <div>
+            <input
+            type="text"
+            name="name"
+            value="{{student.name}}"
+            >
+        </div>
+    </div>
+
+     <div class="item">
+        <div>Email</div>
+        <div>
+            <input
+            type="email"
+            name="email"
+            value="{{student.email}}"
+            >
+        </div>
+    </div>
+
+    <div class="item">
+        <div>Data de nascimento</div>
+        <div>
+            <input
+            type="date"
+            name="birth"
+            value="{{student.age}}"
+            >
+        </div>
+    </div>
+
+    <div class="item">
+        <div>Ano escolar</div>
+        <div><select name="escolaridade">
+                <option value="5°EF" {% if student.escolaridade == "5°EF" %}selected{% endif %}>5° ano do Ensino Fundamental</option>
+                <option value="6°EF" {% if student.escolaridade == "6°EF" %}selected{% endif %}>6° ano do Ensino Fundamental</option>
+                <option value="7°EF" {% if student.escolaridade == "7°EF" %}selected{% endif %}>7° ano do Ensino Fundamental</option>
+                <option value="8°EF" {% if student.escolaridade == "8°EF" %}selected{% endif %}>8° ano do Ensino Fundamental</option>
+                <option value="9°EF" {% if student.escolaridade == "9°EF" %}selected{% endif %}>9° ano do ensino fundamental</option>
+                <option value="1°EM" {% if student.escolaridade == "1°EM" %}selected{% endif %}>1° ano do Ensino Médio</option>
+                <option value="2°EM" {% if student.escolaridade == "2°EM" %}selected{% endif %}>2° ano do Ensino Médio</option>
+                <option value="3°EM" {% if student.escolaridade == "3°EM" %}selected{% endif %}>3° ano do Ensino Médio</option>
+            </select>
+        </div>
+    </div>
+
+     <div class="item">
+        <div>Carga horária semanal</div>
+        <div>
+            <input
+            type="number"
+            name="class_hour"
+            value="{{student.class_hour}}"
+            >
+        </div>
+    </div>
+
+    <div class="item">
+        <div>Matérias de Interesse</div>
+        <div>
+            <input type="text" name="materia" placeholder="Separe as máterias por virgula" value="{{student.materia}}">
+        </div>
+    </div>
+
+
+    <button type="submit">Salvar</button>

@@ -5,10 +5,42 @@
       "avatar_url": "https://images.unsplash.com/photo-1515603403036-f3d35f75ca52?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
       "name": "Matheus Anderson",
       "birth": 941673600000,
-      "escolaridade": "superior",
+      "escolaridade": "doutorado",
       "tipo_aula": "P",
       "materia": "Matemática, Física",
       "created_at": 1593448581079
+    },
+    {
+      "id": 4,
+      "avatar_url": "https://images.unsplash.com/photo-1571260898938-0fe5057e7208?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+      "name": "Luisa",
+      "birth": -438048000000,
+      "escolaridade": "doutorado",
+      "tipo_aula": "D",
+      "materia": "Quimica, Biologia, Gramatica",
+      "created_at": 1593703284587
+    }
+  ],
+  "students": [
+    {
+      "avatar_url": "https://images.unsplash.com/photo-1515603403036-f3d35f75ca52?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+      "name": "Matheus Anderson Lascalla Gomes",
+      "email": "matheusalg.id@gmail.com",
+      "birth": 613612800000,
+      "escolaridade": "3°EM",
+      "class_hour": "210",
+      "materia": "Matemática, Química, Física",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://images.unsplash.com/photo-1580894732930-0babd100d356?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+      "name": "Martha",
+      "email": "Martha_id@gmail.com",
+      "birth": 770688000000,
+      "escolaridade": "3°EM",
+      "class_hour": "64",
+      "materia": "Biologia, Gramatica "
     }
   ]
 }

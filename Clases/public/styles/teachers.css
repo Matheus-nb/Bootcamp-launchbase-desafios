@@ -134,9 +134,8 @@ a.button {
 
     text-align: center;
     text-decoration: none;
-
-    
 }
+
 
 .delet {
     background-color: rosybrown;
@@ -197,7 +196,8 @@ tbody tr td span {
     display: inline-block;
 }
 
-tbody tr td:last-child a {
+tbody tr td:last-child a,
+.table-container a {
     background-color: var(--background-color);
     padding: 8px 16px;
     text-decoration: none;
@@ -214,5 +214,10 @@ td:last-child {
 
 thead tr th {
     font-size: 18px;
+}
+
+.table-container a {
+    display: inline-block;
+    margin: 8px;
 }
 

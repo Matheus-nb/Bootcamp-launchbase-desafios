@@ -23,10 +23,12 @@
 
             </form>
 
-            <form action="/teachers?_method=DELETE" method="post">
+            <form id="form-delete" action="/teachers?_method=DELETE" method="post">
                 <input type="hidden" name="id" value="{{teacher.id}}">
                 <button type="submit" class="delet">Delete</button>
             </form>
+
+             {% include "../confirm.njk" %}
 
         </section>
     </div>

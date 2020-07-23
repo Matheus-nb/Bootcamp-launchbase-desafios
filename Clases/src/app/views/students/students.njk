@@ -1,34 +1,38 @@
 {% extends "layout.njk" %}
 
 {% block head %}
-    <title>Clases - teachers</title>
+    <title>Clases - students</title>
     <link rel="stylesheet" href="/styles/teachers.css">
 {% endblock head %}
 
 {% block content %}
     <div class="card table-container">
         <table width="100%">
-            <a href="/teachers/create">New</a>
+            <a href="/students/create">New</a>
             <thead>
                 <tr>
                     <th>Nome</th>
-                    <th>Acompanhamento</th>
+                    <th>Matéria de Interesse</th>
+                    <th>Ano Escolar</th>
+                    <th>Email</th>
                     <th>Ação</th>
                 </tr>
             </thead>
 
             <tbody>
-                {% for teacher in teachers %}
+                {% for student in students %}
                     <tr>
                         
                         <td>
-                            <span class="avatar_img_table" style="background-image:url({{teacher.avatar_url}})"></span>
-                            {{teacher.name}}
+                            <span class="avatar_img_table" style="background-image:url({{student.avatar_url}})"></span>
+                            {{student.name}}
                         </td>
-                        <td>{% for materia in teacher.materia.split(", ") %}
+                        <td>{% for materia in student.subjects_taught.split(", ") %}
                             <span>{{materia}}</span>
                         {% endfor %}</td>
-                        <td><a href="/teachers/{{teacher.id}}">Ver</a></td>
+                        <td>{{student.education_level}}</td>
+                        <td>{{student.email}}</td>
+                        <td><a href="/students/{{student.id}}">Ver</a></td>
                     
                     </tr>
                 {% endfor %}

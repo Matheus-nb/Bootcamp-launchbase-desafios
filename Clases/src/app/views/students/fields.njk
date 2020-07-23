@@ -46,14 +46,14 @@
     <div class="item">
         <div>Ano escolar</div>
         <div><select name="escolaridade">
-                <option value="5°EF" {% if student.escolaridade == "5°EF" %}selected{% endif %}>5° ano do Ensino Fundamental</option>
-                <option value="6°EF" {% if student.escolaridade == "6°EF" %}selected{% endif %}>6° ano do Ensino Fundamental</option>
-                <option value="7°EF" {% if student.escolaridade == "7°EF" %}selected{% endif %}>7° ano do Ensino Fundamental</option>
-                <option value="8°EF" {% if student.escolaridade == "8°EF" %}selected{% endif %}>8° ano do Ensino Fundamental</option>
-                <option value="9°EF" {% if student.escolaridade == "9°EF" %}selected{% endif %}>9° ano do ensino fundamental</option>
-                <option value="1°EM" {% if student.escolaridade == "1°EM" %}selected{% endif %}>1° ano do Ensino Médio</option>
-                <option value="2°EM" {% if student.escolaridade == "2°EM" %}selected{% endif %}>2° ano do Ensino Médio</option>
-                <option value="3°EM" {% if student.escolaridade == "3°EM" %}selected{% endif %}>3° ano do Ensino Médio</option>
+                <option value="5°EF" {% if student.education_level == "5°EF" %}selected{% endif %}>5° ano do Ensino Fundamental</option>
+                <option value="6°EF" {% if student.education_level == "6°EF" %}selected{% endif %}>6° ano do Ensino Fundamental</option>
+                <option value="7°EF" {% if student.education_level == "7°EF" %}selected{% endif %}>7° ano do Ensino Fundamental</option>
+                <option value="8°EF" {% if student.education_level == "8°EF" %}selected{% endif %}>8° ano do Ensino Fundamental</option>
+                <option value="9°EF" {% if student.education_level == "9°EF" %}selected{% endif %}>9° ano do ensino fundamental</option>
+                <option value="1°EM" {% if student.education_level == "1°EM" %}selected{% endif %}>1° ano do Ensino Médio</option>
+                <option value="2°EM" {% if student.education_level == "2°EM" %}selected{% endif %}>2° ano do Ensino Médio</option>
+                <option value="3°EM" {% if student.education_level == "3°EM" %}selected{% endif %}>3° ano do Ensino Médio</option>
             </select>
         </div>
     </div>
@@ -72,7 +72,7 @@
     <div class="item">
         <div>Matérias de Interesse</div>
         <div>
-            <input type="text" name="materia" placeholder="Separe as máterias por virgula" value="{{student.materia}}">
+            <input type="text" name="materia" placeholder="Separe as máterias por virgula" value="{{student.subjects_taught}}">
         </div>
     </div>
 

@@ -36,10 +36,10 @@
     <div class="item">
         <div>Grau de escolaridade</div>
         <div><select name="escolaridade">
-                <option value="medio" {% if teacher.escolaridade == "medio" %}selected{% endif %}>Ensino Médio Completo</option>
-                <option value="superior" {% if teacher.escolaridade == "superior" %}selected{% endif %}>Ensino Superior Completo</option>
-                <option value="mestrado" {% if teacher.escolaridade == "mestrado" %}selected{% endif %}>Mestrado</option>
-                <option value="doutorado" {% if teacher.escolaridade == "doutorado" %}selected{% endif %}>Doutorado</option>
+                <option value="medio" {% if teacher.education == "Medio" %}selected{% endif %}>Ensino Médio Completo</option>
+                <option value="superior" {% if teacher.education == "Superior" %}selected{% endif %}>Ensino Superior Completo</option>
+                <option value="mestrado" {% if teacher.education == "Mestrado" %}selected{% endif %}>Mestrado</option>
+                <option value="doutorado" {% if teacher.education == "Doutorado" %}selected{% endif %}>Doutorado</option>
             </select>
         </div>
     </div>
@@ -52,7 +52,7 @@
             type="radio" 
             name="tipo_aula" 
             value="P" 
-            {% if teacher.tipo_aula == "P" %}
+            {% if teacher.class_type == "P" %}
                 checked
             {% endif %}>Presencial</span>
             <span>
@@ -60,7 +60,7 @@
             type="radio" 
             name="tipo_aula" 
             value="D"
-            {% if teacher.tipo_aula == "D" %}
+            {% if teacher.class_type == "D" %}
                 checked
             {% endif %}>Distância</span>
         </div>
@@ -69,7 +69,7 @@
     <div class="item">
         <div>Matérias lecionadas</div>
         <div>
-            <input type="text" name="materia" placeholder="Separe as máterias lecionadas por virgula" value="{{teacher.materia}}">
+            <input type="text" name="materia" placeholder="Separe as máterias lecionadas por virgula" value="{{teacher.subjects_taught}}">
         </div>
     </div>
 
